@@ -2,171 +2,175 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UnderTheBudget</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/queries.css">
-    <link rel="stylesheet" href="vendors/css/swiper.min.css">
-    <style>
-        .swiper-container {
-          width: 100%;
-          padding-top: 25px;
-          padding-bottom: 50px;
-          color: black;
-        }
-        .swiper-slide {
-          background-position: center;
-          background-size: cover;
-          width: 250px;
-          height: 220px;
-        }
-      </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UnderTheBudget</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+  <link rel="stylesheet" href="vendors/css/swiper.min.css">
+  <style>
+    .swiper-container {
+      width: 100%;
+      padding-top: 25px;
+      padding-bottom: 50px;
+      color: black;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 220px;
+    }
+  </style>
 </head>
 
 <body>
-    <header>
-      <div class="container">
-      
+  <header>
+    <div class="container-fluid ">
+
       <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light " id="ftco-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Technoslotiom<span>.co.in</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu">Menu</span> 
+          </button>
 
-              <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: transparent!important; ">
-                      <a class="navbar-brand" href="#" style="color: white;">Technoslotiom<span>.co.in</span></a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    <!-- id form offical Bootstrap page -->
-                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                              <li class="nav-item active"><a href="#" class="nav-link"  style="color: white;">Home</a></li>
-                              <li class="nav-item"><a href="#" class="nav-link"  style="color: white;">our work</a></li>
-                              <li class="nav-item"><a href="#" class="nav-link"  style="color: white;">services</a></li>
-                              <li class="nav-item"><a href="#" class="nav-link" style="color: white;">about</a></li>
-                              <li class="nav-item"><a href="#" class="nav-link"  style="color: white;">Contact</a></li>
-                        </ul>
-                        
-                      </div>
-                </nav>
-          
+          <div class="collapse navbar-collapse fix-small-screen-o" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">our work</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">services</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <div class="row">
-                <div class="col-5">
-                  <div class="row small-device" style="margin-top:25px;">
-                  <div class="hero-text-box">
-                    <h1>ONE SOLTIOM FOR,<br>ALL YOUR PROBLEMS.</h1>
-                    <a class="btn btn-ghost" href="#">Show me more</a>
-                 </div>
-               </div>
+        <div class="col-md-1"></div>
+        <div class="col-sm-12 col-md-5 h-100 h-sm-50 margin-remover">
+          <div class="row small-device" style="margin-top:25px;">
+            <div class="hero-text-box">
+              <h1>ONE SOLTIOM FOR,<br>ALL YOUR PROBLEMS.</h1>
+              <a class="btn btn-ghost" href="#">Show me more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 h-sm-50">
+          <div class="row margin-top-fixer"></div>
+          <div class="col-md-10">
+            <div class="right-silder-title">
+              <p>Latest Blogs</p>
+            </div>
+          </div>
+          <div class="col-md-10" style="width: 100%!important">
+            <!-- Swiper -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
+                  <div class="swiper-title-primary">
+                    <h6>Web Development</h6>
+                  </div>
+                  <div class="swiper-title-secod">
+                    <h8>responsive</h8>
+                  </div>
+                  <div class="swiper-btn-container">
+                    <a class="btn btn-full" href="#">Read more</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
+                  <div class="swiper-title-primary">
+                    <h6>Web Development</h6>
+                  </div>
+                  <div class="swiper-title-secod">
+                    <h8>responsive</h8>
+                  </div>
+                  <div class="swiper-btn-container">
+                    <a class="btn btn-full" href="#">Read more</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
+                  <div class="swiper-title-primary">
+                    <h6>Web Development</h6>
+                  </div>
+                  <div class="swiper-title-secod">
+                    <h8>responsive</h8>
+                  </div>
+                  <div class="swiper-btn-container">
+                    <a class="btn btn-full" href="#">Read more</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
+                  <div class="swiper-title-primary">
+                    <h6>Web Development</h6>
+                  </div>
+                  <div class="swiper-title-secod">
+                    <h8>responsive</h8>
+                  </div>
+                  <div class="swiper-btn-container">
+                    <a class="btn btn-full" href="#">Read more</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
+                  <div class="swiper-title-primary">
+                    <h6>Web Development</h6>
+                  </div>
+                  <div class="swiper-title-secod">
+                    <h8>responsive</h8>
+                  </div>
+                  <div class="swiper-btn-container">
+                    <a class="btn btn-full" href="#">Read more</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-7">
-                  <div class="row margin-top-fixer"></div>
-                   <div class="row">
-                      <div class="right-silder-title">
-                        <p>Latest Blogs</p>
-                       </div>
-                   </div>
-                   <div class="row">
-                 <!-- Swiper -->
-                          <div class="swiper-container">
-                              <div class="swiper-wrapper">
-                                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
-                                    <div class="swiper-title-primary">
-                                      <h6>Web Development</h6>
-                                    </div>
-                                    <div class="swiper-title-secod"> 
-                                      <h8>responsive</h8>
-                                    </div>
-                                    <div class="swiper-btn-container"> 
-                                        <a class="btn btn-full" href="#">Read more</a>
-                                    </div>
-                                </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                                <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
-                                  <div class="swiper-title-primary">
-                                    <h6>Web Development</h6>
-                                  </div>
-                                  <div class="swiper-title-secod"> 
-                                    <h8>responsive</h8>
-                                  </div>
-                                  <div class="swiper-btn-container"> 
-                                      <a class="btn btn-full" href="#">Read more</a>
-                                  </div>
-                              </div>
+  </header>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="vendors/js/swiper.min.js"></script>
+</body>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
 
-                              <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
-                                <div class="swiper-title-primary">
-                                  <h6>Web Development</h6>
-                                </div>
-                                <div class="swiper-title-secod"> 
-                                  <h8>responsive</h8>
-                                </div>
-                                <div class="swiper-btn-container"> 
-                                    <a class="btn btn-full" href="#">Read more</a>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
-                              <div class="swiper-title-primary">
-                                <h6>Web Development</h6>
-                              </div>
-                              <div class="swiper-title-secod"> 
-                                <h8>responsive</h8>
-                              </div>
-                              <div class="swiper-btn-container"> 
-                                  <a class="btn btn-full" href="#">Read more</a>
-                              </div>
-                          </div>
-
-                          <div class="swiper-slide" style="background-image:url(img/logo.png);background: rgb(255, 255, 255)">
-                            <div class="swiper-title-primary">
-                              <h6>Web Development</h6>
-                            </div>
-                            <div class="swiper-title-secod"> 
-                              <h8>responsive</h8>
-                            </div>
-                            <div class="swiper-btn-container"> 
-                                <a class="btn btn-full" href="#">Read more</a>
-                            </div>
-                        </div>
-                                </div>
-                              <!-- Add Pagination -->
-                              <div class="swiper-pagination"></div>
-                          </div>                                      
-              </div>
-           </div>
-      </div>   
-      </div> 
-
-    </header>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- Swiper JS -->
-        <script src="vendors/js/swiper.min.js"></script>
-  </body>
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-          effect: 'coverflow',
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: 'auto',
-          autoplay:true,
-            autoplayTimeout:1000,
-            autoplayHoverPause:true,
-            coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true,
-          },
-          pagination: {
-            el: '.swiper-pagination',
-          },
-        });
-      </script>
 </html>
